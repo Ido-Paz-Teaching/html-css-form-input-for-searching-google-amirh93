@@ -1,0 +1,15 @@
+* {
+  display: block;
+  margin: 5px;
+}
+input[type="text"] {
+  font-weight: bold;
+}
+label {
+  font-weight: bold;
+}
+input[type="submit"] {
+  color: green;
+  border-radius: 50%;
+  padding: 5px;
+}

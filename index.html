@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css" />
+    <form action="https://www.google.com/search" target="_blank">
+      <!--<span>search text</span>-->
+      <label for="q">search text</label>
+      <input type="text" name="q" />
+      <!--<span>search time</span>-->
+      <label for="as_qdr">search time</label>
+      <select name="as_qdr" id="as_qdr">
+        <option value="" name="as_qdr">any time</option>
+        <option value="d" name="as_qdr">24 hour s</option>
+        <option value="w" name="as_qdr">7 day</option>
+      </select>
+      <!--<span>number of result</span>-->
+      <label for="num">number of result</label>
+      <input type="text" name="num" required />
+      <label for="lr">hebrow</label>
+      <input type="checkbox" name="lr" lang="lang_iw " />
+      <input type="submit" value="Ask google" />
+    </form>
+  </body>
+</html>
